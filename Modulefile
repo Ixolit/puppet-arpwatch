@@ -1,5 +1,5 @@
 name 'joshuar-arpwatch'
-version '0.1'
+version '0.1.0'
 source 'git://github.com/joshuar/puppet-arpwatch'
 author 'Joshua Rich'
 license 'Apache Version 2.0'
