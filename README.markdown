@@ -47,12 +47,17 @@ Selects the name of the arpwatch service for Puppet to manage. Defaults to 'arpw
 
 ##Limitations
 
-This module has been built on and tested against Puppet 3.5.0  and higher.
+This module has been tested on Puppet 3.5.0 but should work on:
 
-The module has been tested on:
+* Puppet 3.x and higher.
 
-* Ubuntu 13.10
-* Fedora 20
+The module has been tested on Ubuntu 13.10 but should work on the
+latest stable releases of:
+
+* Ubuntu
+* Debian
+* Fedora
+* RedHat
 
 Though, given the lack of frequent updates to arpwatch and its
 packaging in most distributions, the module should work on all RedHat
