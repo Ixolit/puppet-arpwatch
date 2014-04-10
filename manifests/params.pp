@@ -1,6 +1,6 @@
 class arpwatch::params {
 
-  $service_enable = 'true'
+  $service_enable = true
   $service_ensure = 'running'
   $service_name   = 'arpwatch'
   $package_ensure = 'present'
