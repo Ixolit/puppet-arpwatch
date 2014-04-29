@@ -31,7 +31,7 @@ Sets the arpwatch package to be installed. Can be set to 'present', 'latest', or
 
 ####`package_name`
 
-Determines the name of the package to install.Defaults to 'arpwatch'.
+Determines the name of the package to install. *Defaults to 'arpwatch'*.
 
 ####`service_enable`
 
@@ -43,7 +43,12 @@ Determines if the service should be running or not.
 
 ####`service_name`
 
-Selects the name of the arpwatch service for Puppet to manage. Defaults to 'arpwatch'.
+Selects the name of the arpwatch service for Puppet to manage. *Defaults to 'arpwatch'*.
+
+####`ethercodes_file`
+
+Provide an updated ``ethercodes.dat`` file.  This should be in the Puppet
+URI scheme.
 
 ##Limitations
 
@@ -65,4 +70,4 @@ and Debian distrbution variants.
 
 There is currently no support for the Debian-specific
 /etc/arpwatch.conf file for configuring individual options (though the
-intention to support it eventually is there). 
+intention to support it eventually is there).
