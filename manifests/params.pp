@@ -5,7 +5,7 @@ class arpwatch::params {
   $service_name   = 'arpwatch'
   $package_ensure = 'present'
   $package_name   = 'arpwatch'
-  $ethercodes_file = ''
+  $ethercodes_file = false
 
   case $::osfamily {
     'RedHat': {

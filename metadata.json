@@ -16,7 +16,7 @@
             "operatingsystem": "Ubuntu",
             "operatingsystemrelease": [ "12.04", "13.10", "14.04" ]
         }
-    ],  
+    ],
     "requirements": [
         {
             "name": "puppet",
@@ -24,7 +24,7 @@
         }
     ],
     "name": "joshuar-arpwatch",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "source": "git://github.com/joshuar/puppet-arpwatch",
     "author": "Joshua Rich",
     "license": "Apache Version 2.0",
@@ -36,19 +36,5 @@
             "name": "puppetlabs/stdlib",
             "version_requirement": ">=0.1.6"
         }
-    ],
-    "types": [
-
-    ],
-    "checksums": {
-        "Modulefile": "22e2e125e16f6684ac0aed863672fa59",
-        "README.markdown": "32b6e57e22ebc326d93c02f0c57a340b",
-        "manifests/config.pp": "7651c516d48f98cbeae9aff5788af63f",
-        "manifests/init.pp": "026c6fae46b2d3a1fb04023d0c6341b9",
-        "manifests/install.pp": "4a992a0361b7289662c0014012723b02",
-        "manifests/params.pp": "a206ceb26efc9b0e5305b56221399fbf",
-        "manifests/service.pp": "726545b6801c091b53700c672accfdda",
-        "templates/arpwatch.Debian.erb": "bac054fb924b012775cbc066681b7d54",
-        "templates/arpwatch.RedHat.erb": "cef5ee6c04c7a25d2f0ff2c08ffc22da"
-    }
+    ]
 }

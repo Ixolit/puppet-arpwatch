@@ -13,7 +13,6 @@ class arpwatch (
     validate_string($service_ensure)
     validate_string($service_name)
     validate_absolute_path($service_config)
-    validate_absolute_path($ethercodes)
     validate_string($package_ensure)
     validate_string($package_name)
 
