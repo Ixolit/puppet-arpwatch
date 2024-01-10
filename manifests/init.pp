@@ -9,13 +9,6 @@ class arpwatch (
   $package_name    = $arpwatch::params::package_name,
   ) inherits arpwatch::params {
 
-    validate_bool($service_enable)
-    validate_string($service_ensure)
-    validate_string($service_name)
-    validate_absolute_path($service_config)
-    validate_string($package_ensure)
-    validate_string($package_name)
-
     anchor { 'arpwatch::begin': } ->
     class { '::arpwatch::install': } ->
     class { '::arpwatch::config': } ~>
